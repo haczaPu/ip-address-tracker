@@ -1,0 +1,117 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: calc(100vh - 280px);
+  z-index: 0;
+}
+
+.App header {
+  width: 100%;
+  height: 280px;
+  background: url("../images/pattern-bg.png");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.App header h1 {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+.App header .adress-container {
+  width: 1110px;
+  min-height: 160px;
+  background-color: white;
+  color: #2b2b2b;
+  position: absolute;
+  top: 200px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 1;
+  font-family: "Rubik", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.App header .adress-container .title {
+  border-left: 1px solid #969696;
+  padding: 10px 50px;
+}
+
+.App header .adress-container .title:first-child {
+  border: none;
+}
+
+.App header .adress-container h2 {
+  color: #969696;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.App header .adress-container div {
+  padding-top: 10px;
+}
+
+.App header .search {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App header .search input {
+  height: 60px;
+  width: 500px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.App header .search button {
+  width: 60px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 0 15px 15px 0;
+  background-color: #969696;
+}
+
+.App header .search button:hover {
+  background-color: #2b2b2b;
+}
+
+.App header .search button img {
+  width: 15px;
+  height: auto;
+}
+/*# sourceMappingURL=style.css.map */
